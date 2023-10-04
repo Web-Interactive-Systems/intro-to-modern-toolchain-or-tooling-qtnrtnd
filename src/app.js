@@ -2,9 +2,6 @@ import folio from './folio.json'
 import { format, parse } from 'date-fns'
 import { fr } from 'date-fns/locale'
 
-var test = 2
-console.log(test)
-
 const formatDate = (date) => {
     const dateObj = parse(date, 'yyyy/MM/dd', new Date())
     return format(dateObj, 'EEEE d MMMM yyyy', { locale: fr })
