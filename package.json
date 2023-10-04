@@ -2,5 +2,18 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "source": "src/index.html",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Web-Interactive-Systems/intro-to-modern-toolchain-or-tooling-qtnrtnd.git",
+  "author": "Quentin Ratinaud <quentin.ratinaud@gmail.com>"
 }

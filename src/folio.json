@@ -1,3 +1,15 @@
 {
-    "hello_cat": "Meou"
-}
+    "informations": {
+      "name": "Quentin",
+      "surname": "Ratinaud",
+      "birthday": "2002/04/07",
+      "job": "Web developer",
+      "location": "Lannion",
+      "email": "quentin.ratinaud@gmail.com"
+    },
+    "interests": ["Music production", "Running"],
+    "skills": ["Fron-end", "Back-end", "Design", "Music production"],
+    "projects": {
+        "pokindex": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae"
+    }
+  }
